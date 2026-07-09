@@ -44,13 +44,14 @@ nav ul li a {
 }
 
 /* navber end  */
-/* .hero-section{
-    background-image: url(image/banner.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 900px;
-} */
+.hero-section img{
+    /* width: 210vh; */
+    width: 100%;
+}
+
+
+
+
 .hero-section div {
 
     display: flex;
