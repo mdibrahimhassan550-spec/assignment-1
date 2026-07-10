@@ -88,42 +88,28 @@ nav ul li a {
 }
 
 /* hero section end  */
-.card-grid{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-/* grid-template-rows: repeat(2,1fr); */
-/* max-width: 1200px; */
-gap: 45px;
-justify-content: center;
-padding: 60px;
-margin-left: 100px;
-margin-right: 100px;
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2,1fr); */
+    max-width: 1200px;
+    gap: 15px;
+    justify-content: center;
+    padding: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 
 
 }
+
 .card-container {
-
-    
-   
-
-
-
-
-
     border-radius: 10px;
-    
-
     overflow: hidden;
     width: 360px;
     background-color: #ffffff;
     box-shadow: 8px 4px 12px rgba(0, 0, 0, 0.08);
-     max-width: 1200px; 
-
-
-  
-    
-
+    max-width: 1200px;
 }
 
 
@@ -157,8 +143,9 @@ margin-right: 100px;
     display: flex;
     flex-direction: column;
     gap: 5px;
-   
+
 }
-.heading{
+
+.heading {
     text-align: center;
 }
