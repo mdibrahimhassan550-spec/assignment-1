@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 /* navber end  */
-.hero-section img{
+.hero-section img {
     /* width: 210vh; */
     width: 100%;
 }
@@ -81,7 +81,82 @@ nav ul li a {
     top: -625px;
 
 }
-.hero-section div button{
+
+.hero-section div button {
     position: relative;
     bottom: 195px;
+}
+
+/* hero section end  */
+.card-grid{
+display: grid;
+grid-template-columns: repeat(2,350px);
+/* grid-template-rows: repeat(2,1fr); */
+max-width: 1000px;
+gap: 45px;
+justify-content: center;
+padding: 60px;
+
+
+
+}
+.card-container {
+
+    display: grid;
+   
+
+
+
+
+
+    border-radius: 10px;
+    border: 2px solid black;
+
+    overflow: hidden;
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 8px 4px 12px rgba(0, 0, 0, 0.08);
+    /* max-width: 1200px; */
+
+
+  
+    
+
+}
+
+
+
+.card-image img {
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carg-heading span {
+    font-size: 10px;
+    font-weight: lighter;
+
+}
+
+.carg-heading h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.carg-heading p {
+    font-size: 14px;
+    line-height: 1.4;
+
+}
+
+.carg-heading {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid blueviolet;
+}
+.heading{
+    text-align: center;
 }
