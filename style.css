@@ -92,9 +92,10 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 360px);
     /* grid-template-rows: repeat(2,1fr); */
-    max-width: 1200px;
+    /* max-width: 1200px; */
     gap: 25px;
     justify-content: center;
+    align-items: center;
     padding: 60px;
     width: 100%;
     /* margin-left: 100px;
@@ -105,6 +106,7 @@ nav ul li a {
 }
 
 .card-container {
+   
     border-radius: 10px;
     overflow: hidden;
     width: 360px;
@@ -149,4 +151,63 @@ nav ul li a {
 
 .heading {
     text-align: center;
+}
+
+
+/* first card end  */
+
+.container{
+border-radius: 15px;
+padding: 32px;
+display: flex;
+flex-direction: column; 
+ gap: 20px;
+box-shadow: 1px 10px 12px grey;
+width: 280px;
+padding: 20px;
+margin: 0px;
+margin-bottom: 10px;
+max-width: 1600px;
+/* height: 304px; */
+/* justify-content: center;
+align-items: center; */ */
+
+
+
+}
+.card-contant{
+    margin-bottom: 25px;
+}
+.contant-second{
+
+width: 300px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+.contant-second ul li {
+
+font-size: 15px;
+color: gray;
+margin-left: 10px;
+}
+.second-btn button{
+    border: 1px solid blue;
+    padding: 8px 45px;
+    text-align: center;
+    color: blue;
+    border-radius: 5px;
+}
+.second-btn{
+    text-align: center;
+}
+.card-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+    gap: 2px;
+    
 }

@@ -4,3 +4,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mdibrahimhassan550-spec/help.git
 git push -u origin main
+
+ <p>Access to all 3 conference days</p>
+        <p></p>
+        <p>2 workshop sessions</p>
+        <p>Networking lunch & coffee breaks</p>
+        <p>Conference swag bag</p>
+        <p>Digital recordings (30 days)</p>
