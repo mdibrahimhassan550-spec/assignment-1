@@ -90,12 +90,14 @@ nav ul li a {
 /* hero section end  */
 .card-grid{
 display: grid;
-grid-template-columns: repeat(2,350px);
+grid-template-columns: repeat(2,1fr);
 /* grid-template-rows: repeat(2,1fr); */
-max-width: 1000px;
+/* max-width: 1200px; */
 gap: 45px;
 justify-content: center;
 padding: 60px;
+margin-left: 100px;
+margin-right: 100px;
 
 
 
