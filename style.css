@@ -106,13 +106,13 @@ nav ul li a {
 }
 
 .card-container {
-   
+
     border-radius: 10px;
     overflow: hidden;
     width: 360px;
     background-color: #ffffff;
     box-shadow: 8px 4px 12px rgba(0, 0, 0, 0.08);
-   
+
 }
 
 
@@ -156,58 +156,127 @@ nav ul li a {
 
 /* first card end  */
 
-.container{
-border-radius: 15px;
-padding: 32px;
-display: flex;
-flex-direction: column; 
- gap: 20px;
-box-shadow: 1px 10px 12px grey;
-width: 280px;
-padding: 20px;
-margin: 0px;
-margin-bottom: 10px;
-max-width: 1600px;
-/* height: 304px; */
-/* justify-content: center;
-align-items: center; */ */
-
-
-
+.container {
+    border-radius: 15px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 10px 12px grey;
+    width: 280px;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+    max-width: 1600px;
+    /* justify-content: center;
+    align-items: center;
+     */
 }
-.card-contant{
+
+.card-contant {
     margin-bottom: 25px;
 }
-.contant-second{
 
-width: 300px;
-display: flex;
-flex-direction: column;
-gap: 5px;
+.contant-second {
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 
 }
+
 .contant-second ul li {
 
-font-size: 15px;
-color: gray;
-margin-left: 10px;
+    font-size: 15px;
+    color: gray;
+    margin-left: 10px;
 }
-.second-btn button{
+
+.second-btn button {
     border: 1px solid blue;
     padding: 8px 45px;
     text-align: center;
     color: blue;
     border-radius: 5px;
 }
-.second-btn{
+
+.second-btn {
     text-align: center;
 }
-.card-flex{
+
+.card-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin: 25px;
-    gap: 2px;
-    
+
+}
+
+.second {
+    background-color: #0D1B2A;
+}
+
+.first {
+    color: #93C5FD;
+}
+
+.second div h2 {
+    color: aliceblue;
+}
+
+.p {
+    color: #FFFFFF;
+}
+
+.third button {
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.last  {
+    background-color:#0D1B2A ;
+    padding: 25px;
+   
+
+
+}
+ .first-span {
+/* display: flex;
+align-items: center;
+justify-content: flex-start; */
+}
+.second-span{
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+}
+.third-span{
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+    position: relative;
+    right: 5px;
+    text-align: right;
+} 
+
+
+
+.last-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    color: gray;
+
+
+
+}
+.aline{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
 }
